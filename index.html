@@ -22,6 +22,7 @@
         import { goodBye } from "./good-bye.ts";
         import { v4 } from 'uuid';
         import * as person from "./person.json";
+        import textFile from "./hello.txt?raw";
 
         sayHello('Eko');
         goodBye('Budi');
@@ -29,6 +30,7 @@
 
         console.log(person.name);
         console.log(person.age);
+        console.log(textFile);
     </script>
 </body>
 
