@@ -20,10 +20,14 @@
         import { sayHello } from "./say-hello.js";
         import { goodBye } from "./good-bye.ts";
         import { v4 } from 'uuid';
+        import * as person from "./person.json";
 
         sayHello('Eko');
         goodBye('Budi');
         console.log(v4());
+
+        console.log(person.name);
+        console.log(person.age);
     </script>
 </body>
 
